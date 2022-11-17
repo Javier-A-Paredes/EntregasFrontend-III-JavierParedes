@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import ClassComponent from './components/ClassComponent'
-
+import PokemonCard from './components/PokemonCard'
+import PokemonFuncion from './components/PokemonFuncion'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <ClassComponent />
+    <PokemonCard />
+    // <PokemonFuncion />
   )
 }
 
